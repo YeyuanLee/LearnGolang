@@ -7,6 +7,7 @@ import (
 	"net/rpc"
 )
 
+// Hello Service
 type HelloService struct{}
 
 func (p *HelloService) Hello(request string, reply *string) error {
